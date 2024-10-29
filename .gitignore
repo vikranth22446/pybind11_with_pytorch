@@ -28,7 +28,6 @@ dist/
 *.egg-info/
 
 # IDE specific
-.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
