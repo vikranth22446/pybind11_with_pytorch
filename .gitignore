@@ -1,0 +1,36 @@
+# Compiled source
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# C++ specific
+*.cxx
+*.cpp
+*.cc
+*.h
+*.hpp
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environments
+env/
+venv/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
