@@ -9,9 +9,7 @@
 
 # C++ specific
 *.cxx
-*.cpp
 *.cc
-*.h
 *.hpp
 
 # Python specific
