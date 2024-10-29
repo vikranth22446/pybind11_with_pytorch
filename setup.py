@@ -6,11 +6,11 @@ from torch.utils.cpp_extension import CppExtension, BuildExtension
 os.environ["USE_CCACHE"] = "1"
 
 setup(
-    name='slo_extension',
+    name='my_extension',
     ext_modules=[
         CppExtension(
-            'slo_extension',
-            ['slo_extension.cpp'],
+            'my_extension',
+            ['my_extension.cpp'],
             extra_compile_args=['-g', '-O2'],  # Enable debug info and optimization
         ),
     ],
